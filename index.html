@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Place to Rock</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <nav>
+        <ul>
+            <div class="brand"><img src="logo.png" alt="brand name">Spotify</div>
+        </ul>
+    </nav>
+    <section>
+        <div class="songContainer">
+            <h1>Welcome to Spotify </h1>
+            <div class="album">
+                <div class="songItem">
+                    <img src="covers/1.jpg" alt="1">
+                    <span class="songname"></span> <!--Here the songname is added using the javascript with .innerText method-->
+                    <span class="duration">5:34<i id="0" class="fa-solid songPlay fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/2.jpg" alt="2">
+                    <span class="songname"></span> <!--Here the songname is added using the javascript with .innerText method-->
+                    <span class="duration">5:34<i id="1" class="fa-solid songPlay fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/3.jpg" alt="3">
+                    <span class="songname"></span> <!--Here the songname is added using the javascript with .innerText method-->
+                    <span class="duration">5:34<i id="2" class="fa-solid songPlay fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/4.jpg" alt="4">
+                    <span class="songname"></span> <!--Here the songname is added using the javascript with .innerText method-->
+                    <span class="duration">5:34<i id="3" class="fa-solid songPlay fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/5.jpg" alt="5">
+                    <span class="songname"></span> <!--Here the songname is added using the javascript with .innerText method-->
+                    <span class="duration">5:34<i id="4" class="fa-solid songPlay fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/6.jpg" alt="6">
+                    <span class="songname"></span> <!--Here the songname is added using the javascript with .innerText method-->
+                    <span class="duration">5:34<i id="5" class="fa-solid songPlay fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/7.jpg" alt="7">
+                    <span class="songname"></span><!--Here the songname is added using the javascript with .innerText method-->
+                    <span class="duration">5:34<i id="6" class="fa-solid songPlay fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/8.jpg" alt="8">
+                    <span class="songname"></span> <!--Here the songname is added using the javascript with .innerText method-->
+                    <span class="duration">5:34<i id="7" class="fa-solid songPlay fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/9.jpg" alt="9">
+                    <span class="songname"></span> <!--Here the songname is added using the javascript with .innerText method-->
+                    <span class="duration">5:34<i id="8" class="fa-solid songPlay fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/10.jpg" alt="10">
+                    <span class="songname"></span> <!--Here the songname is added using the javascript with .innerText method-->
+                    <span class="duration">5:34<i id="9" class="fa-solid songPlay fa-circle-play"></i></span>
+                </div>
+                
+            </div>
+    </section>
+    <div class="bottom">
+        <input type="range" name="range" id="songcontroller" value="0"  min="0" max="100">
+        <div class="icons">
+            <i class="fa-solid fa-2x fa-backward-step" id="previous"></i>
+            <i class="fa-solid fa-2x fa-circle-play" id="MasterPlay"></i>
+            <i class="fa-solid fa-2x fa-forward-step" id="next"></i>
+        </div>
+        <div class="songdetails">
+            <img src="playing.gif" alt="playing" id="gif">
+            <span id="MasterSongName"></span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/7783c7cc4a.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>
